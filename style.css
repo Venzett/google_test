@@ -3,8 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:arial, san-serif;
-        
+    font-family:arial, san-serif;     
 }
 section
 {
@@ -52,6 +51,117 @@ section header ul li button
     font-weight: 700;
     border-radius: 3px;
     cursor:pointer;
+}
+section .main
+{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+section .main .searchBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchBox .search
+{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+section .main .searchBox .icons
+{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons
+{
+    margin-top: 20px;
     
 }
+section .main .buttons button
+{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+section .main .buttons button:hover
+{
+    border: 1px solid #ccc; 
+}
+section .footer
+{
+    
+}
+section .footer .bottom-line
+{
+    position:absolute;
+    background-color: #f2f2f2;
+    bottom: 3%;
+    right: 0%;
+    width: 100%;
+    display:flex ;
+    justify-content:flex-start;
+    padding: 16px;
+    font-size: 16px;
+    color: #555;
+    border: 1px;
+    border-bottom: 15px solid rgb(204, 204, 204);
+}
+section .footer .bottom-links 
+{
+    position: absolute;
+    background-color: #f2f2f2;
+    bottom: 0;
+    right: 0%;
+    width: 100%;    
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px;
+
+}
+section .footer .bottom-links ul
+{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+section .footer .bottom-links ul li
+{
+    list-style: none;   
+    margin-left: 20px;
+    
+}
+section .footer .bottom-links ul li a
+{
+    text-decoration: none;
+    color: rgb(126, 119, 119);
+    cursor:grab;
+}
+
+
+
+
+
+
 
